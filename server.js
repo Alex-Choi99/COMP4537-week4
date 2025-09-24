@@ -1,6 +1,6 @@
 const http = require('http');
 
-http.createServer(function (req, res) {
+const server = http.createServer(function (req, res) {
     console.log("The server received a request");
     res.writeHead(200, {
         "Content-Type": "text/html",
