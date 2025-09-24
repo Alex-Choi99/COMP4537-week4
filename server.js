@@ -11,6 +11,6 @@ http.createServer(function (req, res) {
     res.end("Hello <b>World!</b>skbidi");
 });
 
-Server.listen(8000, '0.0.0.0', () => {
+server.listen(8000, '0.0.0.0', () => {
     console.log('Server is running at http://0.0.0.0:8000');
 });
